@@ -32,17 +32,10 @@ Use Gramm-Schmidt method in ENVI to merge HSI and LiDAR-based DSM
 **Please modify line 10-23 in *data_util_c.py* for the dataset details.**
 
 ### Training
-1. Train the merged HSI and LiDAR-based DSM
+
+Train the merged HSI and LiDAR-based DSM
 ```
 python main.py --train merge --epochs 20 --modelname ./logs/weights/hsi.h5
-```
-2. Train LiDAR
-```
-python main.py --train lidar --epochs 20 --modelname ./logs/weights/lidar.h5
-```
-3. Train two branches
-```
-python main.py --train finetune --epochs 20 --modelname ./logs/weights/model.h5
 ```
 save pred.npy and index.npy in （.mat）model
 
