@@ -13,6 +13,18 @@ pip install -r requirements.txt
 
 ## Usage
 
+### Data set links
+
+Houston dataset were introduced for the 2013 IEEE GRSS Data Fusion contest. Data set links comes from http://www.grss-ieee.org/community/technical-committees/data-fusion/2013-ieee-grss-data-fusion-contest/
+
+The authors would like to thank Dr. P. Ghamisi for providing the Trento Data.
+
+The MUUFL Gulfport Hyperspectral and LIDAR Data [1][2] is Available from https://github.com/GatorSense/MUUFLGulfport/.
+
+[1] P. Gader, A. Zare, R. Close, J. Aitken, G. Tuell, “MUUFL Gulfport Hyperspectral and LiDAR Airborne Data Set,” University of Florida, Gainesville, FL, Tech. Rep. REP-2013-570, Oct. 2013.
+
+[2] X. Du and A. Zare, “Technical Report: Scene Label Ground Truth Map for MUUFL Gulfport Data Set,” University of Florida, Gainesville, FL, Tech. Rep. 20170417, Apr. 2017. Available: http://ufdc.ufl.edu/IR00009711/00001.
+
 ### dataset utilization
 
 Use Gramm-Schmidt method in ENVI to merge HSI and LiDAR-based DSM
