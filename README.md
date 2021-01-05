@@ -53,11 +53,11 @@ All the results are cited from original paper. More details can be found in the 
 | MUUFL    | 92.52%| 94.31% |
 
 ## Citation
-```
+
 Please kindly cite the papers if this code is useful and helpful for your research.
 
 Zhao X, Tao R, Li W, et al. Joint Classification of Hyperspectral and LiDAR Data Using Hierarchical Random Walk and Deep CNN Architecture[J]. IEEE Transactions on Geoscience and Remote Sensing, 2020.
-
+```
 @article{zhao2020joint,
   title={Joint Classification of Hyperspectral and LiDAR Data Using Hierarchical Random Walk and Deep CNN Architecture},
   author={Zhao, Xudong and Tao, Ran and Li, Wei and Li, Heng-Chao and Du, Qian and Liao, Wenzhi and Philips, Wilfried},
